@@ -6,4 +6,4 @@ To run locally on your machine, clone the project or download and run "npm start
 
 ## Visulization of App
 
-<img src = "./images/Screenshots.png">
+![Getting Started](./images/Screenshot.png)
