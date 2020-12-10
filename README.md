@@ -4,3 +4,6 @@ Here I have created a Recipe App which is fetching the data from "EDAMAM API" an
 ## Run locally
 To run locally on your machine, clone the project or download and run "npm start"
 
+## Visulization of App
+
+<img src = "./images/Screenshots.png">
