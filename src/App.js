@@ -7,7 +7,7 @@ const App = () => {
   const APP_Key = "9d8f981b214800b0ee2cc6b123eb4cf0"
   const APP_ID = "65754daf"
  
-const [recipes, setRecipe] = useState(['']);
+const [recipes, setRecipe] = useState([]);
 const [search, setSearch] = useState('');
 const [query, setQuery] = useState('chicken')
 
@@ -41,12 +41,12 @@ const getSearch = e => {
       <div className = "recipes">
       {recipes.map(recipe => (
         <Recipe 
-               title = {recipe.recipe.label}
-               calories = {recipe.recipe.calories}
-               image = {recipe.recipe.image}
-               ingredients = {recipe.recipe.ingredients}
+                title = {recipe.recipe.label}
+                image = {recipe.recipe.image}
+                ingredients = {recipe.recipe.ingredients}
+                calories = {recipe.recipe.calories}
         />
-      ))}
+      ))} 
       </div>
     </div>
   )
